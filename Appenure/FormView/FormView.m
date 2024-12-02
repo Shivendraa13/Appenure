@@ -2,7 +2,7 @@
 //  FormView.m
 //  Appenure
 //
-//  Created by Preyash on 30/11/24.
+//  Created by Shivendra on 30/11/24.
 //
 
 #import "FormView.h"
@@ -35,17 +35,6 @@
     view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     [self addSubview:view];
-}
-
-
-
-- (IBAction)submitButtonTapped:(id)sender {
-    
-    NSString *title = self.titleText.text;
-    NSString *description = self.descriptionText.text;
-    
-    NSLog(@"Title: %@", title);
-    NSLog(@"Description: %@", description);
 }
 
 - (IBAction)closeButton:(id)sender {

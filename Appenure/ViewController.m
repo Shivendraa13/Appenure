@@ -9,7 +9,6 @@
 #import "Appenure-Swift.h"
 #import "ChildCollectionViewCell.h"
 #import "FormView.h"
-#import "Appenure-Bridging-Header.h"
 
 @interface ViewController ()
 
